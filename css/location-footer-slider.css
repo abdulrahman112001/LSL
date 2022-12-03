@@ -355,9 +355,17 @@
 
 .cat-slid .cat-stage-outer {
     position: relative;
-    /* overflow: hidden; */
+    overflow: hidden;
     /* -webkit-transform: translate3d(0, 0, 0); */
     height: 100%
+}
+.cat-slid.cat-slid-car-2  .cat-next, .cat-slid.cat-slid-car-2  .cat-prev{
+    top: 50% !important;
+}
+@media (max-width:460px) {
+    .cat-slid.cat-slid-car-2  .cat-stage-outer{
+        overflow:inherit ;
+    }
 }
 
 /* .cat-slid .cat-item,.cat-slid .cat-wrapper{-webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -ms-backface-visibility: hidden; -webkit-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0)}*/
