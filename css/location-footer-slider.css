@@ -447,6 +447,10 @@
     user-select: none;
     position: relative;
 }
+.viewAll{
+    position:absolute;
+    top:200px
+}
 
 .cat-slid.cat-grab {
     cursor: move;
