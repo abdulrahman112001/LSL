@@ -6045,10 +6045,10 @@ aside.desktop-app {
         width: 71px !important;
         background-color: #f7f7f7;
         border-radius: 50%;
-        border: 1px solid rgb(186, 0, 0);
+        /* border: 1px solid rgb(186, 0, 0); */
         display: flex;
         position: relative;
-        box-shadow: 0 0 6px rgb(186, 0, 0)
+        /* box-shadow: 0 0 6px rgb(186, 0, 0) */
     }
 
     .brnd-title {
@@ -7382,7 +7382,7 @@ svg.closedownload {
 }
 
 .qldropdown-content a:hover {
-    color: rgb(186, 0, 0)
+    /* color: rgb(186, 0, 0) */
 }
 
 .qldropdown-content {

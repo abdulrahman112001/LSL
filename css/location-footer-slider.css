@@ -355,7 +355,7 @@
 
 .cat-slid .cat-stage-outer {
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
     /* -webkit-transform: translate3d(0, 0, 0); */
     height: 100%
 }
@@ -444,7 +444,8 @@
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none
+    user-select: none;
+    position: relative;
 }
 
 .cat-slid.cat-grab {

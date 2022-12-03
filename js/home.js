@@ -67,7 +67,7 @@ $(function () {
       loop: !1,
       items: 9,
       responsive: {
-        0: { items: 4, nav: !1, dots: !0 },
+        0: { items: 3, nav: !1, dots: !0 },
         600: { items: 6, dots: !0, nav: !1 },
         1100: { items: 9 },
       },
@@ -98,6 +98,20 @@ $(function () {
         0: { items: 3, nav: !1, dots: !0 },
         600: { items: 5, dots: !0, nav: !1 },
         1e3: { items: 7 },
+      },
+    });
+  }),
+  $(document).ready(function () {
+    $(".cat-slid-car-2").catCarousel({
+      margin: 10,
+      nav: !0,
+      dots: !1,
+      loop: !1,
+
+      responsive: {
+        0: { items: 1, nav: !1, dots: !0 },
+        600: { items: 2, dots: !0, nav: !1 },
+        1e3: { items: 4 },
       },
     });
   }),

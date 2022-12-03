@@ -1475,11 +1475,11 @@ a:focus {
 }
 
 .last-section {
-    border-radius: 30px;
+    border-radius: 15x;
     text-align: center !important;
     background-image:linear-gradient(rgb(241 223 7), rgb(147 110 6));
     width: 200px;
-    padding: 50px 0;
+    padding: 10px 0;
     display: flex;
     display: -webkit-flex;
     justify-content: center;
